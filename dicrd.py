@@ -44,9 +44,6 @@ async def rules(ctx):
         
         .rules to bring this up again
     
-        
-        Mankarn loves you <3
-        
         """
         , color = 0x00ff00)
     myEmbed.add_field(name = "Version Code", value = "v1.0.1", inline = False)
@@ -82,27 +79,4 @@ async def _8ball(ctx, *, question):
     await ctx.send(f'Question from {author}: {question} \nAnswer: {random.choice(responses)}')
 
 
-
-
-#@bot.event
-#async def on_message(message):
-    #if message.content == '.help':
-        #channel = bot.get_channel(829846126689648653)
-
-       # myEmbed = discord.Embed(title = "Help", description = """
-       # .wiki to search Wikipedia articles
-        
-       # .define to find the Websters definition of a word
-        
-       # .help to bring this up again
-        
-      #  Mankarn loves you <3
-      #  
-       # """
-       # , color = 0x00ff00)
-        #myEmbed.add_field(name = "Version Code", value = "v1.0.0", inline = False)
-       # myEmbed.add_field(name = "Date Released", value = "May 13th, 2021", inline = False)
-       # myEmbed.set_footer(text = "Mankarn Sandhu")
-       # await channel.send(embed = myEmbed)
-
-bot.run('ODQyNTMxMjQ3ODg4NjYyNjE5.YJ2qXg.QCh1VR9Nf27fdCQg1nUAd7eIiWo')
+bot.run('#your-token-here')
